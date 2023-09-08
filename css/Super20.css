@@ -1246,7 +1246,7 @@ strong {
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
   h1 {
     font-size: 40px;
   }
@@ -1277,35 +1277,6 @@ strong {
     width: 45px;
     height: 45px;
   }
-
-  .volunteer-image {
-    width: 150px;
-    height: 150px;
-  }
-
-  .volunteer-section::after {
-    width: 200px;
-    height: 200px;
-  }
-
-  .testimonial-section::before {
-    top: -50px;
-    width: 100px;
-    height: 100px;
-  }
-
-  .testimonial-section::after {
-    bottom: -150px;
-    width: 200px;
-    height: 200px;
-  }
-
-  .social-share .tags-block {
-    margin-bottom: 10px;
-  }
-
-  .donate-form {
-    padding: 25px;
   }
 }
 
